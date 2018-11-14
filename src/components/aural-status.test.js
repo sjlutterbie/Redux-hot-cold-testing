@@ -4,7 +4,7 @@ import {shallow} from 'enzyme';
 import {AuralStatus} from './aural-status';
 
 describe('<AuralStatus />', () => {
-  it('Renders without crashing', () => {
+  it('Render without crashing', () => {
     shallow(<AuralStatus auralStatus="foo" />);
   });
   
